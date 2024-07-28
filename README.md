@@ -21,3 +21,9 @@ Referred https://github.com/alejandro-ao/langchain-ask-pdf or https://www.youtub
 
 **COMMAND:**
 streamlit run app.py
+
+
+
+pip install transformers 
+pip install faiss-cpu
+pip install torch torchvision torchaudio
