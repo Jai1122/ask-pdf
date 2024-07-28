@@ -70,7 +70,7 @@ def main():
             _, indices = index.search(question_embedding, k=5)
             docs = [chunks[i] for i in indices[0]]
 
-            api_key =  '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'
+            api_key =  ''
             url = 'https://api.anthropic.com/v1/complete'
             headers = {
                 'Authorization': f'Bearer {api_key}',
